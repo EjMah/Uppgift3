@@ -18,7 +18,7 @@ class CalculatorTest {
     @Order(1)
     @DisplayName("Test if number is odd")
     public void testIfNumberIsOddThenTrue(){
-        assertTrue(calculator.isOdd(5));
+        assertTrue(calculator.isOdd(6));
     }
 
     @Test
